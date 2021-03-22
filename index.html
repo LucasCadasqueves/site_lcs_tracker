@@ -1,11 +1,9 @@
-<link rel="sortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />;
 <!DOCTYPE html>
 <html class="text-primary">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>LCS Tracker</title>
+    <title>Untitled</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
@@ -16,6 +14,7 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Animated-CSS-Waves-Background-SVG.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Features-Blue.css">
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
@@ -23,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Map-Clean.css">
     <link rel="stylesheet" href="assets/css/Navbar---Apple-1.css">
     <link rel="stylesheet" href="assets/css/Navbar---Apple.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
@@ -33,48 +33,66 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean" data-bs-hover-animate="bounce" style="background-color: rgb(201,245,251);">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: rgb(201,245,251);">
         <div class="container"><img class="swing animated" src="assets/img/logo_sem_fundo.png" width="250px"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#orcamento_personalizado">CONTATO</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#planos">PLANOS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#orcamento_personalizado">COTAÇÕES</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#acesso_restrito">ACESSO RESTRITO</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://www.asaas.com/segunda-via/asaas" target="_blank">BOLETOS</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#planos" style="font-size: 20px;">PLANOS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#cotacoes" style="font-size: 20px;">COTAÇÕES</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#acesso_restrito" style="font-size: 20px;">ACESSO RESTRITO</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://www.asaas.com/segunda-via/asaas" target="_blank" style="font-size: 20px;">BOLETO</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <div class="article-list" id="acesso_restrito">
-        <div class="container">
+    <div class="row text-success" style="margin: 0px;background-color: #a2d0ea;">
+        <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+            <div class="intro"><img class="img-fluid" src="assets/img/banner01.png" style="margin: 0px;padding-top: 10px;"></div>
+            <div class="text">
+                <figure></figure>
+            </div>
+        </div>
+    </div>
+    <div class="features-blue" style="background-color: rgb(90,139,197);padding: 0px;padding-bottom: 0px;filter: blur(0px);margin: 0px;background-repeat: repeat-x;"></div>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="map-clean"></div>
+    <div class="article-list" style="margin-bottom: 5px;margin-left: 0px;">
+        <div class="container" id="acesso_restrito" style="padding: 0px;margin: 1px0px;">
             <div class="intro" style="filter: contrast(200%) grayscale(0%) hue-rotate(0deg) invert(0%);">
-                <h2 class="text-center" style="font-size: 40px;background-position: center;margin-bottom: 0px;">Acessos ao sistena</h2>
-                <p class="text-center">Abaixo temos os sistemas de acesso aos dispositivos a serem rastreados e controlados. </p>
+                <h1 class="text-center" style="font-size: 30px;background-position: center;margin-bottom: 0px;">Acessos ao sistena</h1>
+                <p class="text-center" style="padding-bottom: 20px;">Abaixo temos os sistemas de acesso aos dispositivos a serem rastreados e controlados<br></p>
             </div>
-            <div class="row articles" style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-sm-6 col-md-4 item"><a href="http://www.gpstrackerxy.com/Login.aspx?Server=3"><img class="img-fluid" src="assets/img/servidor.PNG" style="width: 200px;height: 120px;"></a>
-                    <h3 class="name">WEB</h3>
-                    <p class="description">Acesso web via navegador de seu computador ou celular com funcionalidades interativas.</p><a class="action" href="http://www.gpstrackerxy.com/Login.aspx?Server=3"><i class="fa fa-arrow-circle-right"></i></a></div>
+            <div class="row d-sm-flex justify-content-sm-center articles" style="margin-right: 0px;margin-left: 0px;padding: 0px;font-size: 18px;">
+                <div class="col-sm-6 col-md-4 item" style="height: 100px;min-height: 350px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"><a href="http://www.gpstrackerxy.com/Login.aspx?Server=3"><img class="img-fluid" src="assets/img/desk.jpg" style="width: 180px;height: 120px;padding: 0px;padding-right: 0px;padding-bottom: 0px;"></a>
+                    <h3 class="name" style="margin: 10px;padding: 10px;">WEB</h3>
+                    <p class="description" style="margin: 1px;padding: 5px;">Acesso web via navegador de seu computador ou celular com funcionalidades interativas.<br></p><a class="action" href="http://www.gpstrackerxy.com/Login.aspx?Server=3"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"
+                    style="padding: 1px;height: 100px;max-width: 50%;min-height: 350px;"><a href="https://play.google.com/store/apps/details?id=com.coban.en"><img class="img-fluid" src="assets/img/android.jpg" style="width: 120px;height: 120px;padding: 0px;"></a>
+                    <h3 class="name" style="margin: 10px;padding: 10px;">ANDROID</h3>
+                    <p class="description" style="margin: 1px;">Aplicativo disponível para dispositivos com o sistema operacional Android.<br></p><a class="action" href="https://play.google.com/store/apps/details?id=com.coban.en" target="_blank"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-4 item"><a href="https://play.google.com/store/apps/details?id=com.coban.en"><img class="img-fluid" src="assets/img/android.jpg" style="width: 120px;"></a>
-                    <h3 class="name">APP ANDROID</h3>
-                    <p class="description">Aplicativo disponível para dispositivos com o sistema operacional Android.</p><a class="action" href="https://play.google.com/store/apps/details?id=com.coban.en"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                class="col-sm-6 col-md-4 item"><a href="https://apps.apple.com/pt/app/trackerhome/id796842725"><img class="img-fluid" src="assets/img/ios.jpg" style="width: 120px;"></a>
-                <h3 class="name">APP iOS</h3>
-                <p class="description">Aplicativo disponível para dispositivos Apple.</p><a class="action" href="https://apps.apple.com/cn/app/trackerhome/id796842725"><i class="fa fa-arrow-circle-right"></i></a></div>
+                    class="col-sm-6 col-md-4 item" style="padding: 1px;margin: 0px;height: 100px;max-width: 50%;min-height: 350px;"><a href="https://apps.apple.com/pt/app/trackerhome/id796842725"><img class="img-fluid" src="assets/img/ios.jpg" style="width: 120px;height: 120px;padding: 0px;"></a>
+                    <h3 class="name" style="margin: 10px;padding: 10px;">iOS</h3>
+                    <p class="description" style="margin: 1px;">Aplicativo disponível para dispositivos Apple.<br><br></p><a class="action" href="https://apps.apple.com/pt/app/trackerhome/id796842725" target="_blank"><i class="fa fa-arrow-circle-right"></i></a></div>
+        </div>
     </div>
     </div>
-    </div>
-    <div class="features-boxed" id="planos">
-        <div class="container">
+    <div class="visible features-boxed">
+        <div class="container flex-column-reverse">
             <div class="intro">
-                <h2 class="text-center">PLANOS</h2>
-                <p class="text-center">Possuímos duas opções de contratação para rastreamento, com e sem bloqueio do motor, verifique a melhor opção que se encaixa as suas necessidades.&nbsp;<a href="https://api.whatsapp.com/send?phone=5542999176767&amp;text=">Dúvidas em qual contratar? Clique aqui e receba ajuda.</a>&nbsp;</p>
+                <h1 class="text-center visible" id="planos">PLANOS</h1>
+                <p class="text-center">Possuímos duas opções de contratação para rastreamento, com e sem bloqueio do motor, verifique a melhor opção que se encaixa as suas necessidades.&nbsp;<a href="https://api.whatsapp.com/send?phone=5542999176767&amp;text=" target="_blank">Dúvidas em qual contratar? Clique aqui e receba ajuda.</a>&nbsp;</p>
             </div>
-            <div class="row justify-content-center features">
+            <div class="row justify-content-center features" style="margin: 0px 2px;padding: 5px;">
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-scissors icon"></i>
                         <h3 class="name">RASTREAMENTO + CORTE DE COMBUSTÍVEL<br>R$ 39,99</h3>
@@ -88,57 +106,61 @@
             </div>
         </div>
     </div>
-    <div class="highlight-phone" id="orcamento_personalizado">
+    <div class="border-primary highlight-phone" id="cotacoes" style="filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%);padding: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <div class="intro">
-                        <h2>ORÇAMENTO PERSONALIZADO</h2>
-                        <p>Solicite seu orçamento via&nbsp; WhatsApp ou e-mail.</p><a class="btn btn-primary" role="button" href="https://api.whatsapp.com/send?phone=5542999176767&amp;text=">Orçar VIA wHATSaPP</a><a class="btn btn-primary m-auto" role="button"
-                            href="mailto:adm.lcstracker@gmail.com">Orçar VIA e-mail</a></div>
+                        <h2 style="margin: 0px;">ORÇAMENTO PERSONALIZADO</h2>
+                        <p style="margin: 0px;padding: 10px;">Solicite seu orçamento via&nbsp; WhatsApp ou e-mail.</p><a class="btn btn-primary" role="button" href="https://api.whatsapp.com/send?phone=5542999176767&amp;text=" style="padding: 10px;margin: 5px;" target="_blank">Orçar VIA wHATSaPP</a>
+                        <a
+                            class="btn btn-primary m-auto" role="button" href="mailto:adm.lcstracker@gmail.com" style="margin: 5px;padding: 10px;" target="_blank">Orçar VIA e-mail</a>
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="d-none d-md-block iphone-mockup"><img class="device" src="assets/img/iphone.svg">
-                        <div class="screen"></div>
+                        <div class="screen" style="background-image: url(&quot;assets/img/plano%20de%20fundo%20celular.png&quot;);"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-dark">
+    <div class="footer-dark" style="margin: 0;padding: 0px;">
         <footer>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
+                <div class="row text-center" style="opacity: 1;padding: 10px;">
+                    <div class="col-12 col-sm-6 col-md-3 item" style="filter: brightness(200%);">
                         <h3>Contatos:</h3>
                         <ul>
-                            <li><a href="tel:+5542999176767">Telefone: +55(42) 9 9917-6767</a></li>
-                            <li><a href="mailto:adm.lcstracker@gmail.com">E-mail: adm.lcstracker@gmail.com</a></li>
-                            <li><a href="https://api.whatsapp.com/send?phone=5542999176767">WhatsApp: +55(42) 9 9917-6767</a></li>
+                            <li><a href="tel:42999176767" style="opacity: 1;" target="_blank">Telefone: +55(42) 9 9917-6767</a></li>
+                            <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;su=Contato+Site+LCS_Tracker&amp;to=adm.lcstracker@gmail.com&amp;body=Ol%C3%A1,+estava+no+site+lcstracker.com.br, " style="opacity: 1;" target="_blank">E-mail: adm.lcstracker@gmail.com</a></li>
+                            <li><a href="https://wa.me/message/VNOU7NLI77N2B1" style="opacity: 1;" target="_blank">WhatsApp: +55(42) 9 9917-6767</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Minutas de Contrato</h3>
+                    <div class="col-sm-6 col-md-3 item" style="padding: 4px,4px;margin: 0px;">
+                        <h3 style="margin: 5px;padding: 1px;"><strong>Minutas de Contrato</strong><br></h3>
                         <ul>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="https://drive.google.com/file/d/11HAFuqsUZimyXBLVXGPnQQOSG4zmxS3n/view?usp=sharing" target="_blank">Acesse a minuta do contrato aqui.</a></li>
-                       </ul>
+                            <li></li>
+                            <li><a href="https://drive.google.com/file/d/11HAFuqsUZimyXBLVXGPnQQOSG4zmxS3n/view" target="_blank">Acesse aqui.</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-6 item text">
+                    <div class="col-md-6 item text" style="padding: 10px;margin: 0px;">
                         <h3>LCS Tracker</h3>
-                        <p>Contole seu veículo ou frota na palma da sua mão, se preferir deixe sua equipe com poderes específicos para o controle interno.</p>
+                        <p class="text-center">Contole seu veículo ou frota na palma da sua mão, se preferir deixe sua equipe com poderes específicos para o controle interno.&nbsp;<br></p>
                     </div>
-                    <div class="col item social">
-                        <a class="text-center text-primary" href="https://www.facebook.com/lcstracker"><i class="icon ion-social-facebook" style="color: rgb(255,255,255);"></i></a>
-                        <a href="https://www.linkedin.com/company/lcstracker"><i class="icon ion-social-linkedin"></i></a>
-                    </div>
+                    <div class="col-12 item social" style="padding: 1px;margin: 0px;"><a class="text-center text-primary d-inline-flex justify-content-center align-items-center" href="https://www.facebook.com/lcstracker" style="margin: 8px;" target="_blank"><i class="icon ion-social-facebook d-flex justify-content-center align-items-center" style="color: rgb(255,255,255);"></i></a>
+                        <a
+                            class="text-center text-primary d-inline-flex justify-content-center align-items-center" href="https://www.youtube.com/channel/UCSotYF84tcYmZksYsAhUMEg" style="margin: 8px;" target="_blank"><i class="icon ion-social-youtube d-flex justify-content-center align-items-center" style="color: rgb(255,255,255);"></i></a><a class="d-inline-flex justify-content-center align-items-center" href="https://www.linkedin.com/company/lcstracker"
+                                style="margin: 8px;" target="_blank"><i class="icon ion-social-linkedin d-flex justify-content-center align-items-center"></i></a><a class="d-inline-flex justify-content-center align-items-center" href="https://www.instagram.com/lcs.tracker"
+                                style="margin: 8px;" target="_blank"><i class="icon ion-social-instagram d-flex justify-content-center align-items-center"></i></a></div>
                 </div>
-                <p class="copyright">LCS Technology © 2021</p>
+                <p class="copyright" style="padding: 1px;margin: 0px;padding-bottom: 20px;">LCS Technology © 2021</p>
             </div>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Navbar---Apple.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
